@@ -1,0 +1,146 @@
+/* desktop styles */
+@media only screen and (min-width: 1081px){
+    body {
+        font-size: 10pt;
+        font-family: Tahoma, Helvetica, sans-serif;
+        line-height: 1.6;
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
+
+/* mobile styles */
+@media only screen and (max-width: 1080px){
+    body {
+        font-size: 8pt;
+        font-family: Tahoma, Helvetica, sans-serif;
+        line-height: 1.6;
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+    header {
+        width: 100%;
+    }
+
+    header img, nav img, footer img {
+        width: 100%;
+        height:auto;
+    }
+
+    nav {
+        width: 20%;
+        margin: 10;
+        float: left;
+        height: 70vh;
+    }
+
+    article {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    article h1 {
+        color: #EE0E95;
+        font-weight: bold;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #sec-right {
+        margin:0 7px;
+    }
+
+    #news-left {
+        margin:0 3%;
+        margin-bottom: 5px;
+    }
+
+    #news-right {
+        width: 30%;
+        display: flex;
+        justify-content:flex-end;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    a:link{color: gray;}      
+    a:visited {color:gray;} 
+    a:hover {color:gray;}  
+    a:active {color:gray;}
+
+    .seperate {
+        text-align: left;
+        padding-top: 14px;
+    }
+
+    #p-h {
+        display : inline
+    }
+
+    #p-link {
+        display : inline;
+        float: right;
+        margin-right: 1em;
+    }
+
+    table {
+        width: 100%;
+        table-layout:fixed;
+        font-size: 8pt;
+        line-height: 2;
+        margin-bottom: 30px;
+    }
+    #staff tr td {
+        width: 33%;
+    }
+    
+    #event tr td:first-child,table tr td:first-child {
+        width:8em;
+    }
+
+    #butHome:hover {
+        content: url(images/hov_Home_HKGS.jpg);
+        width:100%;
+    }
+
+    #butAbout:hover {
+        content: url(images/hov_About_HKGS.jpg);
+        width:100%;
+    }
+
+    #butStaff:hover {
+        content: url(images/hov_Staff_HKGS.jpg);
+        width:100%;
+    }
+
+    #butProg:hover {
+        content: url(images/hov_Prog_HKGS.jpg);
+        width:100%;
+    }
+
+    #butNews:hover {
+        content: url(images/hov_News_HKGS.jpg);
+        width:100%;
+    }
+
+    #butLink:hover {
+        content: url(images/hov_Link_HKGS.jpg);
+        width:100%;
+    }
+
+    #butContact:hover {
+        content: url(images/hov_Contact_HKGS.jpg);
+        width:100%;
+    }
+
